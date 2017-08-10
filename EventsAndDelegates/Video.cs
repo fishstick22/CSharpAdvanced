@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAdvanced
+namespace CSharpAdvanced.EventsAndDelegates
 {
-    class Program
+    public class Video
     {
-        static void Main(string[] args)
-        {
-        }
+        public string Title { get; internal set; }
     }
 }

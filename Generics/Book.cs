@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAdvanced
+namespace CSharpAdvanced.Generics
 {
-    class Program
+    public class Book : Product
     {
-        static void Main(string[] args)
-        {
-        }
+        public string Isbn { get; set; }
     }
 }

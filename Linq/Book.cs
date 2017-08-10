@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAdvanced
+namespace CSharpAdvanced.Linq
 {
-    class Program
+    public class Book
     {
-        static void Main(string[] args)
-        {
-        }
+        public string Title { get; set; }
+        public float Price { get; set; }
     }
 }

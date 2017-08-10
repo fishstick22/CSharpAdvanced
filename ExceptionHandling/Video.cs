@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAdvanced
+namespace CSharpAdvanced.ExceptionHandling
 {
-    class Program
+    public class Video
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
